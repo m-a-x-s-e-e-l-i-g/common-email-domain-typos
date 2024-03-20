@@ -27,11 +27,11 @@ jobs:
       - name: Convert data.txt to CSV
         run: |
           # Read data.txt and convert to CSV
-          awk -F ':' 'BEGIN { OFS = "," } { print $1, $2 }' data.txt > output.csv
+          awk -F ':' 'BEGIN { OFS = "," } { print $1, $2 }' data.txt > data.csv
 
       - name: Commit changes
         run: |
-          git add output.csv
+          git add data.csv
           git commit -m "Convert data.txt to CSV"
 
       - name: Push changes
