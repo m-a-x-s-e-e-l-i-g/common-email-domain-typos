@@ -3,3 +3,7 @@ Are you wondering whether an email address contains common typos? Search no more
 
 ## Format
 `wrong_domain:suggested_domain`
+
+## Contribute 
+You can contribute by issue or by adding entries to `data.txt` in a pull request. 
+Other data files will be automatically generated.
