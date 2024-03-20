@@ -1,0 +1,30 @@
+name: Convert Text to CSV
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Convert data.txt to CSV
+        run: |
+          # Read data.txt and convert to CSV
+          awk -F ':' 'BEGIN { OFS = "," } { print $1, $2 }' data.txt > output.csv
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "GitHub Action"
+          git add output.csv
+          git commit -m "Convert data.txt to CSV"
+          git push
