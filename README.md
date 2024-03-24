@@ -4,6 +4,9 @@ Are you wondering whether an email address contains common typos? Search no more
 ## Format
 `wrong_domain:suggested_domain`
 
-## Contribute 
+## Contributing 
 You can contribute by issue or by adding entries to `data.txt` in a pull request. 
+Please run `./maintain.sh`. The shell script will convert uppercase to lowercase, sort, remove duplicates.
+
+
 Other data files will be automatically generated.
