@@ -33,6 +33,7 @@ gxm.com:gmx.com
 gxm.de:gmx.de
 gxm.net:gmx.net
 hotmail.con:hotmail.com
+hotmail.ml:hotmail.nl
 hotmail.nl:hotmail.nl
 hotmaill.com:hotmail.com
 hotmaill.nl:hotmail.nl
@@ -48,6 +49,7 @@ hotnail.com:hotmail.com
 hotnail.nl:hotmail.nl
 iclaud.com:icloud.com
 icloud.con:icloud.com
+kpnmail.ml:kpnmail.nl
 live.con:live.com
 outlok.com:outlook.com
 outlook.con:outlook.com
