@@ -32,6 +32,7 @@ googlr.com:google.com
 gxm.com:gmx.com
 gxm.de:gmx.de
 gxm.net:gmx.net
+hormail.com:hotmail.com
 hotmail.con:hotmail.com
 hotmail.ml:hotmail.nl
 hotmaill.com:hotmail.com
